@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
+body{
+  background-image: url('./assets/2588790.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+ /* background: #00b09b;  /* fallback for old browsers 
+  background: -webkit-linear-gradient(to right, #96c93d, #00b09b);   Chrome 10-25, Safari 5.1-6 
+  background: linear-gradient(to right, #96c93d, #00b09b);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  /*background-color:blue;*/
+
+}
+.App{
+  background: #fceabb;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f8b500, #fceabb);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f8b500, #fceabb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+
+  min-height:500px;
+  width:600px;
+  margin:40px auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+#to-do-form input{
+  background: #EDE574;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E1F5C4, #EDE574);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E1F5C4, #EDE574); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+  background-color: rgb(27,112,137);
+  border:0;
+  width:360px;
+  height:50px;
+  padding:0 20px;
+  margin:20px;
+  font-size:22px;
+  border-radius: 10px;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
+#to-do-form input::placeholder{
+  color:grey
 
-.App-link {
-  color: #61dafb;
 }
+#to-do-form input:focus,#to-do-form button:focus{
+  outline:none;
+}
+#to-do-form button{
+  background: #F00000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #DC281E, #F00000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #DC281E, #F00000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  height:50px;
+  width:120px;
+border-radius: 5px;
+border: 0;
+background-color: tomato;
+cursor: pointer;
+font-weight: bolder;
+color:whitesmoke;
+}
+h1{text-align: center;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 45px;
+font-display: block;
+
 }
