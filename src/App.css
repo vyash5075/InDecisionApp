@@ -19,6 +19,7 @@ body{
   min-height:500px;
   width:600px;
   margin:40px auto;
+  padding-bottom: 20px;
 }
 
 #to-do-form input{
